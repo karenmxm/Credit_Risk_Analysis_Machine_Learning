@@ -1,3 +1,5 @@
+Evaluate Resampling Methods and Models
+
 1. Compare Resampling Methods Using Logistic Regression Model
 
     Precision and Recall Scores:
