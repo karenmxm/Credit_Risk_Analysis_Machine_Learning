@@ -1,0 +1,51 @@
+1. Compare Resampling Methods Using Logistic Regression
+
+    Precision and Recall Scores:
+    Precision = TP/(TP + FP). It measures among all predicted positive cases, how many are truly positive.
+    Recall = TP/(TP + FN). It measures among all true positive cases, how many are correctly predicted.
+
+    Random Oversampling: high_risk precision score 0.01, recall score 0.74
+                         low_risk precision score 1.00, recall score 0.58
+    SMOTE Oversampling: high_risk precision score 0.01, recall score 0.62
+                         low_risk precision score 1.00, recall score 0.68
+    Under Sampling:     high_risk precision score 0.01, recall score 0.68
+                         low_risk precision score 1.00, recall score 0.41
+    Combination Sampling: high_risk precision score 0.01, recall score 0.72
+                         low_risk precision score 1.00, recall score 0.57
+    
+    
+    Balanced Accuracy Score:
+    Balanced accuracy score calculates the fraction of samples predicted correctly with balanced data. 
+    
+    Across the four sampling methods:
+    Random Oversampling: 0.6603;
+    SMOTE Oversampling: 0.6537;
+    Under Sampling: 0.5474;
+    Combination Sampling: 0.6448.
+
+    We care more about among all actual high_risk customers, how many can be correctly predicted.
+    So we recomend Random Oversampling method since its balanced accuracy score is highest and recall scores
+    for high_risk is the highest among all four sampling methods. 
+
+2. Ensemble classifiers 
+
+    We compare the performence of two classifiers:
+    Balanced RandomForest Classifier and Easy Ensemble Classifier.
+
+    Balanced accuracys core:
+
+    Balanced RandomForest Classifier: 0.7855
+    Easy Ensemble Classifier: 0.9317
+
+    Precision and Recall Scores:
+
+    Balanced RandomForest: high_risk precision score 0.04, recall score 0.67
+                           low_risk precision score 1.00, recall score 0.90
+    Easy Ensemble Classifier: high_risk precision score 0.09, recall score 0.92
+                              low_risk precision score 1.00, recall score 0.94
+    
+    We recomend Easy Ensemble Classifier since it gets higher balanced accuracy score,
+    higher precision score and higher recall score for both high_risk and low_risk cases
+    than Balanced RandomForest Classifier. 
+
+
