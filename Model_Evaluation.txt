@@ -1,4 +1,4 @@
-1. Compare Resampling Methods Using Logistic Regression
+1. Compare Resampling Methods Using Logistic Regression Model
 
     Precision and Recall Scores:
     Precision = TP/(TP + FP). It measures among all predicted positive cases, how many are truly positive.
@@ -27,7 +27,7 @@
     So we recomend Random Oversampling method since its balanced accuracy score is highest and recall scores
     for high_risk is the highest among all four sampling methods. 
 
-2. Ensemble classifiers 
+2. Evaluate Ensemble classifiers 
 
     We compare the performence of two classifiers:
     Balanced RandomForest Classifier and Easy Ensemble Classifier.
