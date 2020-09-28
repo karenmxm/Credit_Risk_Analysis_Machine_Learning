@@ -37,7 +37,7 @@ We compared two oversampling algorithms to determine which algorithm results in 
 1. View the count of the target classes using `Counter` from the collections library. 
 3. Use `imblearn.over_sampling` `SMOTE` to resample data to train a logistic regression model.
 3. Calculate the balanced accuracy score from sklearn.metrics.
-4. Print the confusion matrix from `sklearn.metrics`.
+4. Print the confusion matrix `sklearn.metrics`.
 5. Generate a classication report using the ` classification_report_imbalanced` from `imbalanced-learn`.
 
 - [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/SMOTE_Confusion_Matrix.png)
@@ -54,6 +54,7 @@ We compared two oversampling algorithms to determine which algorithm results in 
   | low_risk      | 1.00 | 0.68 | 0.62 | 0.81 | 0.65 | 0.43 | 17104 |
   | avg / total   | 0.99 | 0.68 | 0.62 | 0.81 | 0.65 | 0.43 | 17205 | 
 
+
 ### Undersampling
 
 We also used an undersampling algorithms to determine which algorithm results in the best performance compared to the oversampling algorithms above. We undersample the data using the Cluster Centroids algorithm and complete the folliowing steps:
@@ -61,7 +62,7 @@ We also used an undersampling algorithms to determine which algorithm results in
 1. View the count of the target classes using `Counter` from the collections library. 
 3. Use `imblearn.under_sampling` `ClusterCentroids` method to resample the data to train a logistic regression model.
 3. Calculate the balanced accuracy score using `sklearn.metrics` `balanced_accuracy_score` method.
-4. Print the confusion matrix from `sklearn.metrics`.
+4. Print the confusion matrix `sklearn.metrics`.
 5. Generate a classication report using the `classification_report_imbalanced` from `imblearn.metrics`.
 
 - [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Undersampling_Confusion_Matrix.png)
@@ -79,3 +80,26 @@ We also used an undersampling algorithms to determine which algorithm results in
   | avg / total   | 0.99 | 0.41 | 0.68 | 0.58 | 0.53 | 0.27 | 17205 | 
   
   
+### Combination (Over and Under) Sampling
+
+We test a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. We resample the data using the SMOTEENN algorithm and complete the folliowing steps:
+
+1. View the count of the target classes using `Counter` from the collections library. 
+3. Use the `imblearn.combine` `SMOTEENN` method to resample data to train a logistic regression model.
+3. Calculate the balanced accuracy score using `sklearn.metrics` `balanced_accuracy_score` method.
+4. Print the confusion matrix from `sklearn.metrics`.
+5. Generate a classication report using the `classification_report_imbalanced` from `imblearn.metrics`.
+
+- [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/CombinationSampling_Confusion_Matrix.png)
+
+  <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/CombinationSampling_Confusion_Matrix.png>
+  
+- Balanced Accuracy Score: 64.48%
+
+- Imbalanced Classification Report
+
+  |               | pre | rec | spe | f1 | geo | iba | sup |
+  | :-------------|-----|-----|-----|----|-----|-----|-----|
+  | high_risk     | 0.01 | 0.72 | 0.57 | 0.02 | 0.64 | 0.42 |  101 |
+  | low_risk      | 1.00 | 0.57 | 0.72 | 0.72 | 0.64 | 0.40 | 17104 |
+  | avg / total   | 0.99 | 0.57 | 0.72 | 0.72 | 0.64 | 0.40 | 17205 | 
