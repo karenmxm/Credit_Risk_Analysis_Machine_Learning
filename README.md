@@ -9,6 +9,8 @@ Credit card companies usually have many more non-fraudulent transactions than fr
 
 We compared two oversampling algorithms to determine which algorithm results in the best performance. We oversample the data using the naive random oversampling algorithm and the SMOTE algorithm. For each algorithm, be sure to complete the folliowing steps:
 
+### Naive Random Oversampling
+
 1. View the count of the target classes using `Counter` from the collections library. 
 3. Use `imblearn.over_sampling` `RandomOverSampler` to resample data to train a logistic regression model.
 3. Calculate the balanced accuracy score from sklearn.metrics.
