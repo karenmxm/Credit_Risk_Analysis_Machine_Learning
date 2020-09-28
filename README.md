@@ -17,9 +17,9 @@ We compared two oversampling algorithms to determine which algorithm results in 
 4. Print the confusion matrix from `sklearn.metrics`.
 5. Generate a classication report using the `imbalanced_classification_report` from `imbalanced-learn`.
 
-- [Confusion Matrix]()
+- [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Naive_Confusion_Matrix.png)
  
- <img src=>
+ <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Naive_Confusion_Matrix.png>
 
 - Imbalanced Classification Report
 
