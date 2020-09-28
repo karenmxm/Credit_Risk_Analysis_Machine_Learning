@@ -104,7 +104,7 @@ We test a combination over- and under-sampling algorithm to determine if the alg
   | low_risk      | 1.00 | 0.57 | 0.72 | 0.72 | 0.64 | 0.40 | 17104 |
   | avg / total   | 0.99 | 0.57 | 0.72 | 0.72 | 0.64 | 0.40 | 17205 | 
 
-## Credit Risk Ensemble Learners Techniques
+## Credit Risk Ensemble Techniques
 
 We compared two ensemble algorithms to determine which algorithm results in the best performance. We trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier. For each algorithm, we complete the folliowing steps:
 
@@ -115,4 +115,35 @@ We compared two ensemble algorithms to determine which algorithm results in the 
 5. For the Balanced Random Forest Classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score
 
 ### Balanced Random Forest Classifier
+
+ - [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Rf_Confusion_Matrix.png)
+ 
+   <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Rf_Confusion_Matrix.png>
+
+ - balanced_accuracy_score is: 78.55%
+ 
+ - Imbalanced Classification Report
+
+  |               | pre | rec | spe | f1 | geo | iba | sup |
+  | :-------------|-----|-----|-----|----|-----|-----|-----|
+  | high_risk     | 0.04 | 0.67 | 0.90 | 0.07 | 0.78 | 0.59 | 101 |
+  | low_risk      | 1.00 | 0.90 | 0.67 | 0.95 | 0.78 | 0.62 | 17104 |
+  | avg / total   | 0.99 | 0.90 | 0.67 | 0.94 | 0.78 | 0.62 | 17205 |
+
+
+### Easy Ensemble AdaBoost Classifier
+
+ - [Confusion Matrix]()
+ 
+ - <img src=>
+ 
+ - balanced_accuracy_score is: 93.17%
+ 
+ - Imbalanced Classification Report
+
+  |               | pre | rec | spe | f1 | geo | iba | sup |
+  | :-------------|-----|-----|-----|----|-----|-----|-----|
+  | high_risk     | 0.09 | 0.92 | 0.94 | 0.16 | 0.93 | 0.87 |  101 |
+  | low_risk      | 1.00 | 0.94 | 0.92 | 0.97 | 0.93 | 0.87 | 17104 |
+  | avg / total   | 0.99 | 0.94 | 0.92 | 0.97 | 0.93 | 0.87 | 17205 |
 
