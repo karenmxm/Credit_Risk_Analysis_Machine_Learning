@@ -106,3 +106,13 @@ We test a combination over- and under-sampling algorithm to determine if the alg
 
 ## Credit Risk Ensemble Learners Techniques
 
+We compared two ensemble algorithms to determine which algorithm results in the best performance. We trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier. For each algorithm, we complete the folliowing steps:
+
+1. Train the model using the training data.
+2. Calculate the balanced accuracy score from `sklearn.metrics`.
+3. Print the confusion matrix from `sklearn.metrics`.
+4. Generate a classification report using the `classification_report_imbalanced` from `imblearn.metrics`.
+5. For the Balanced Random Forest Classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score
+
+### Balanced Random Forest Classifier
+
