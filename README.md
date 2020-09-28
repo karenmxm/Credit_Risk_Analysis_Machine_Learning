@@ -21,8 +21,6 @@ We compared two oversampling algorithms to determine which algorithm results in 
  
  <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Confusion_Matrix.png>
 
-
-
 - Imbalanced Classification Report
 
  |               | pre | rec | spe | f1 | geo | iba | sup |
@@ -30,4 +28,8 @@ We compared two oversampling algorithms to determine which algorithm results in 
  | high_risk     | 0.01 | 0.74 | 0.58 | 0.02 | 0.66 | 0.44 | 101 |
  | low_risk      | 1.00 | 0.58 | 0.74 | 0.73 | 0.66 | 0.42 | 17104 |
  |avg / total    | 0.99 | 0.58 | 0.74 | 0.73 | 0.66 | 0.42 | 17205 |
+
+
+### SMOTE Oversampling
+
 
