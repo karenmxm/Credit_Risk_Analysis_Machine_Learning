@@ -103,3 +103,6 @@ We test a combination over- and under-sampling algorithm to determine if the alg
   | high_risk     | 0.01 | 0.72 | 0.57 | 0.02 | 0.64 | 0.42 |  101 |
   | low_risk      | 1.00 | 0.57 | 0.72 | 0.72 | 0.64 | 0.40 | 17104 |
   | avg / total   | 0.99 | 0.57 | 0.72 | 0.72 | 0.64 | 0.40 | 17205 | 
+
+## Credit Risk Ensemble Learners Techniques
+
