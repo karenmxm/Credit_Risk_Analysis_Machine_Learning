@@ -7,3 +7,11 @@ Credit card companies usually have many more non-fraudulent transactions than fr
 
 Credit Risk Resampling Techniques
 
+We compared two oversampling algorithms to determine which algorithm results in the best performance. We oversample the data using the naive random oversampling algorithm and the SMOTE algorithm. For each algorithm, be sure to complete the folliowing steps:
+
+1. View the count of the target classes using `Counter` from the collections library. 
+3. Use the resampled data to train a logistic regression model.
+3. Calculate the balanced accuracy score from sklearn.metrics.
+4. Print the confusion matrix from sklearn.metrics.
+5. Generate a classication report using the `imbalanced_classification_report` from imbalanced-learn.
+
