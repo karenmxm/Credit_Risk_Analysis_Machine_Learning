@@ -129,3 +129,21 @@ We compared two ensemble algorithms to determine which algorithm results in the 
   | high_risk     | 0.04 | 0.67 | 0.90 | 0.07 | 0.78 | 0.59 | 101 |
   | low_risk      | 1.00 | 0.90 | 0.67 | 0.95 | 0.78 | 0.62 | 17104 |
   | avg / total   | 0.99 | 0.90 | 0.67 | 0.94 | 0.78 | 0.62 | 17205 |
+
+
+### Easy Ensemble AdaBoost Classifier
+
+ - [Confusion Matrix]()
+ 
+ - <img src=>
+ 
+ - balanced_accuracy_score is: 93.17%
+ 
+ - Imbalanced Classification Report
+
+  |               | pre | rec | spe | f1 | geo | iba | sup |
+  | :-------------|-----|-----|-----|----|-----|-----|-----|
+  | high_risk     | 0.09 | 0.92 | 0.94 | 0.16 | 0.93 | 0.87 |  101 |
+  | low_risk      | 1.00 | 0.94 | 0.92 | 0.97 | 0.93 | 0.87 | 17104 |
+  | avg / total   | 0.99 | 0.94 | 0.92 | 0.97 | 0.93 | 0.87 | 17205 |
+
