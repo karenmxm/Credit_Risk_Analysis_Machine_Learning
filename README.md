@@ -64,6 +64,8 @@ We also used an undersampling algorithms to determine which algorithm results in
 4. Print the confusion matrix from `sklearn.metrics`.
 5. Generate a classication report using the `classification_report_imbalanced` from `imblearn.metrics`.
 
+- [Confusion Matrix]()
+
 - Balanced Accuracy Score: 54.75%
 
 - Imbalanced Classification Report
