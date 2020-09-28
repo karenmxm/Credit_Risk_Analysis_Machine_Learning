@@ -44,4 +44,12 @@ We compared two oversampling algorithms to determine which algorithm results in 
 
 <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/SMOTE_Confusion_Matrix.png>
 
+- Balanced Accuracy Score: 65.37%
 
+- Imbalanced Classification Report
+
+ |               | pre | rec | spe | f1 | geo | iba | sup |
+ | :-------------|-----|-----|-----|----|-----|-----|-----|
+ | high_risk     | 0.01 | 0.62 | 0.68 | 0.02 | 0.65 | 0.42 | 101 |
+ | low_risk      | 1.00 | 0.68 | 0.62 | 0.81 | 0.65 | 0.43 | 17104 |
+ |avg / total    | 0.99 | 0.68 | 0.62 | 0.81 | 0.65 | 0.43 | 17205 | 
