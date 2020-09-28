@@ -64,7 +64,9 @@ We also used an undersampling algorithms to determine which algorithm results in
 4. Print the confusion matrix from `sklearn.metrics`.
 5. Generate a classication report using the `classification_report_imbalanced` from `imblearn.metrics`.
 
-- [Confusion Matrix]()
+- [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Undersampling_Confusion_Matrix.png)
+
+  <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Undersampling_Confusion_Matrix.png>
 
 - Balanced Accuracy Score: 54.75%
 
