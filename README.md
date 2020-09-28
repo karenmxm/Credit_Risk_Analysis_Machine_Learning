@@ -21,7 +21,7 @@ We compared two oversampling algorithms to determine which algorithm results in 
  
  <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Naive_Confusion_Matrix.png>
  
- Balanced Accuracy Score: 66.03%
+- Balanced Accuracy Score: 66.03%
 
 - Imbalanced Classification Report
 
