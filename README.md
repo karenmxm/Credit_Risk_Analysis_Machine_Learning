@@ -133,9 +133,9 @@ We compared two ensemble algorithms to determine which algorithm results in the 
 
 ### Easy Ensemble AdaBoost Classifier
 
- - [Confusion Matrix]()
+ - [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/EasyEnsemble_Confusion_Matrix.png)
  
- - <img src=>
+ - <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/EasyEnsemble_Confusion_Matrix.png>
  
  - balanced_accuracy_score is: 93.17%
  
