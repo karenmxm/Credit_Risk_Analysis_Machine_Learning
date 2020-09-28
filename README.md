@@ -20,6 +20,8 @@ We compared two oversampling algorithms to determine which algorithm results in 
 - [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Naive_Confusion_Matrix.png)
  
  <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Naive_Confusion_Matrix.png>
+ 
+ Balanced Accuracy Score: 66.03%
 
 - Imbalanced Classification Report
 
@@ -31,5 +33,15 @@ We compared two oversampling algorithms to determine which algorithm results in 
 
 
 ### SMOTE Oversampling
+
+1. View the count of the target classes using `Counter` from the collections library. 
+3. Use `imblearn.over_sampling` `SMOTE` to resample data to train a logistic regression model.
+3. Calculate the balanced accuracy score from sklearn.metrics.
+4. Print the confusion matrix from `sklearn.metrics`.
+5. Generate a classication report using the `imbalanced_classification_report` from `imbalanced-learn`.
+
+[Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/SMOTE_Confusion_Matrix.png)
+
+<img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/SMOTE_Confusion_Matrix.png>
 
 
