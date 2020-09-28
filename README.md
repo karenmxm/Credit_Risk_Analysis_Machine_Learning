@@ -5,7 +5,7 @@ We first compared four resampling methods using logistic regression model. Then 
 
 Credit card companies usually have many more non-fraudulent transactions than fraudulent ones. This is a class imbalance problem. It occurs when one class is much larger than the other class. It is a common problem in classification. We used three techniques to address class imbalance: oversampling, undersampling, and a combination approach of oversampling and undersampling. 
 
-Credit Risk Resampling Techniques
+## Credit Risk Resampling Techniques
 
 We compared two oversampling algorithms to determine which algorithm results in the best performance. We oversample the data using the naive random oversampling algorithm and the SMOTE algorithm. For each algorithm, be sure to complete the folliowing steps:
 
