@@ -24,10 +24,11 @@ We compared two oversampling algorithms to determine which algorithm results in 
 
 
 - Imbalanced Classification Report
-                   pre       rec       spe        f1       geo       iba       sup
 
-  high_risk       0.01      0.74      0.58      0.02      0.66      0.44       101
-   low_risk       1.00      0.58      0.74      0.73      0.66      0.42     17104
+ |               | pre | rec | spe | f1 | geo | iba | sup |
+ | :-------------|-----|-----|-----|----|-----|-----|-----|
 
-avg / total       0.99      0.58      0.74      0.73      0.66      0.42     17205
+ | high_risk     | 0.01 | 0.74 | 0.58 | 0.02 | 0.66 | 0.44 | 101 |
+ | low_risk      | 1.00 | 0.58 | 0.74 | 0.73 | 0.66 | 0.42 | 17104 |
+ |avg / total    | 0.99 | 0.58 | 0.74 | 0.73 | 0.66 | 0.42 | 17205 |
 
