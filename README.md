@@ -17,3 +17,17 @@ We compared two oversampling algorithms to determine which algorithm results in 
 4. Print the confusion matrix from `sklearn.metrics`.
 5. Generate a classication report using the `imbalanced_classification_report` from `imbalanced-learn`.
 
+- [Confusion Matrix](https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Confusion_Matrix.png)
+ 
+ <img src=https://github.com/karenmxm/Credit_Risk_Analysis/blob/master/Images/Confusion_Matrix.png>
+
+
+
+- Imbalanced Classification Report
+                   pre       rec       spe        f1       geo       iba       sup
+
+  high_risk       0.01      0.74      0.58      0.02      0.66      0.44       101
+   low_risk       1.00      0.58      0.74      0.73      0.66      0.42     17104
+
+avg / total       0.99      0.58      0.74      0.73      0.66      0.42     17205
+
